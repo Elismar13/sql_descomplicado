@@ -21,6 +21,20 @@ Decidi apelidar este repositório com minhas anotações referente à linguagem 
 
 Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15). Lembrando que, dependendo do banco de dados utilizado, o nome pode de alguns tipos podem mudar.
 
+- Mas alguns que não posso deixar de citar são:
+
+    - Numéricos:
+        - INTEGER - Número inteiro
+        - BIGINT - Numero inteiro grande
+        - FLOAT - Número decimal com pequena precisão
+        - DOUBLE - Número decimal com alta precisão
+    - Não numéricos:
+        - VARCHAR - Que seria uma forma de representar cadeias de caracteres.
+        - TEXT - Para textos grandes
+    - Data e hora:
+        - DATE - Data no formato YYYY-MM-DD hh:mm:ss
+        - TIME - Tempo no formato hh:mm:ss 
+
 ### Principais Comandos para CRUD
 
 - O comando CREATE TABLE
