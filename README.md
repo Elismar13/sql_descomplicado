@@ -47,4 +47,14 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
             coluna_3 tipo_do_dado,
             coluna_n tipo_do_dado,
         ) 
-        ``` 
+        ```
+
+- Cláusula WHERE
+
+- O comando SELECT
+
+- O comando UPDATE
+
+- O comando DELETE
+
+- O comando GROUPBY
