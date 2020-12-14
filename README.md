@@ -1,13 +1,13 @@
 <h1 align="center">SQL Descomplicado</h1>
-<p align="center">Em construção</p>
+<p align="center">:construction: Em construção :construction:</p>
 
 Decidi apelidar este repositório com minhas anotações referente à linguagem SQL como "SQL Descomplicado", pois sempre soube SQL mas nunca havia estudado e dado importância como damos a outras linguagens. Por isso, dessa vez, irei priorizar exclusivamente SQL - e não apenas usar como estudo em segundo plano, haha.
 
-### O que é SQL?
+### 🤔 O que é SQL?
 
 - SQL, do inglês, Structured Query Language, é o conjunto de instruções com as quais todos os programas e usuários acessam dados em um banco de dados. Com ele podemos trabalhar com banco de dados de forma relacional. (Oracle)
 
-### Quando usar?
+### :grey_question: Quando usar?
 
 - :construction: em construção :construction:
 
@@ -35,7 +35,7 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
         - DATE - Data no formato YYYY-MM-DD hh:mm:ss
         - TIME - Tempo no formato hh:mm:ss 
 
-### Principais Comandos para CRUD
+### :memo: Principais Comandos para CRUD
 
 - O comando CREATE TABLE
     - Utilizado para criar uma nova tabela.
