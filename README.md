@@ -21,5 +21,16 @@ Decidi apelidar este repositório com minhas anotações referente à linguagem 
 
 Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15). Lembrando que, dependendo do banco de dados utilizado, o nome pode de alguns tipos podem mudar.
 
+### Principais Comandos para CRUD
 
-
+- O comando CREATE TABLE
+    - Utilizado para criar uma nova tabela.
+    - Sintaxe:
+        ```
+        CREATE TABLE nome_da_tabela (
+            coluna_1 tipo_do_dado,
+            coluna_2 tipo_do_dado,
+            coluna_3 tipo_do_dado,
+            coluna_n tipo_do_dado,
+        ) 
+        ``` 
