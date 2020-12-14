@@ -11,13 +11,13 @@ Decidi apelidar este repositório com minhas anotações referente à linguagem 
 
 - :construction: em construção :construction:
 
-### Principais banco de dados
+### :mag: Principais banco de dados
 
 - [MySQL](https://www.mysql.com/) 
 - [Postgree](https://www.postgresql.org/)
 - [SQLite](https://sqlite.org/index.html)
 
-### Tipos de dados
+### :page_facing_up: Tipos de dados
 
 Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15). Lembrando que, dependendo do banco de dados utilizado, o nome pode de alguns tipos podem mudar.
 
