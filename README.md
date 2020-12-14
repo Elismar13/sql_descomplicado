@@ -11,4 +11,10 @@ Decidi apelidar este repositório com minhas anotações referente à linguagem 
 
 - :construction: em construção :construction:
 
+### Principais banco de dados
+
+- [MySQL](https://www.mysql.com/) 
+- [Postgree](https://www.postgresql.org/)
+- [SQLite](https://sqlite.org/index.html)
+
 
