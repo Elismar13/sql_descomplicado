@@ -50,11 +50,18 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
             coluna_2 tipo_do_dado,
             coluna_3 tipo_do_dado,
             coluna_n tipo_do_dado,
-        ) 
+        );
         ```
 
 - O comando SELECT
-    - Permite selecionar Um dos comandos mais utilizados
+    - Permite buscar dados diretamente do banco de dados. __QUASE TODAS__ query se inicia com SELECT, por isso é um dos comandos mais utilizados.
+    - Permite selecionar uma ou mais colunas
+    - Sintaxe: 
+        ```
+        SELECT coluna_1, coluna_2, coluna_n
+        FROM nome_da_tabela;
+        ```
+
 - Cláusula WHERE
     - Pode ser usado como filtro de valores em certos campos.
     - Pode receber uma ou mais condições.
