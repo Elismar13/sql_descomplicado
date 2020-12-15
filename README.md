@@ -6,16 +6,19 @@ Decidi apelidar este repositório com minhas anotações referente à linguagem 
 ### 🤔 O que é SQL?
 
 - SQL, do inglês, Structured Query Language, é o conjunto de instruções com as quais todos os programas e usuários acessam dados em um banco de dados. Com ele podemos trabalhar com banco de dados de forma relacional. (Oracle)
+- O SQL permite a padronização ao acesso de banco de dados a partir das famosas __queries__, estas podem ser vistas como uma linha de código que permite que o cliente crie, acesse ou modifique diretamente no BD.
+- Existe uma variaedade de RDBMS (Relational Database Management Systems). Alguns irei citar aqui.
 
 ### :grey_question: Quando usar?
 
 - :construction: em construção :construction:
 
-### :mag: Principais banco de dados
+### :mag: Principais RDBMS
 
 - [MySQL](https://www.mysql.com/) 
 - [Postgree](https://www.postgresql.org/)
 - [SQLite](https://sqlite.org/index.html)
+- [SQLServer](https://www.microsoft.com/en-us/sql-server)
 
 ### :page_facing_up: Tipos de dados
 
@@ -34,6 +37,7 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
     - Data e hora:
         - DATE - Data no formato YYYY-MM-DD hh:mm:ss
         - TIME - Tempo no formato hh:mm:ss 
+        - TIMESTAMP - Tempo em segundos desde 1970-01-01
 
 ### :memo: Principais Comandos para CRUD
 
@@ -49,12 +53,21 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
         ) 
         ```
 
-- Cláusula WHERE
-
 - O comando SELECT
+    - Permite selecionar Um dos comandos mais utilizados
+- Cláusula WHERE
+    - Pode ser usado como filtro de valores em certos campos.
+    - Pode receber uma ou mais condições.
+    - Sintaxe:
+    ```
+    SELECT column_name(s)
+    FROM table_name
+    WHERE column_name operator value;
+    ```
 
 - O comando UPDATE
 
 - O comando DELETE
 
 - O comando GROUPBY
+
