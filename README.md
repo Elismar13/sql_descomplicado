@@ -65,12 +65,17 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
 - Cláusula WHERE
     - Pode ser usado como filtro de valores em certos campos.
     - Pode receber uma ou mais condições.
+    - Os operadores podem ser:
+        - Aritméticos:
+            - __=__ , __<>__ , __>__ ,  __>__ , __>=__ , __<=__
+        - Outros:
+            - BETWEEN, LIKE, IN
     - Sintaxe:
-    ```
-    SELECT column_name(s)
-    FROM table_name
-    WHERE column_name operator value;
-    ```
+        ```
+        SELECT coluna_1
+        FROM nome_da_tabela
+        WHERE coluna_1 operador valor;
+        ```
 
 - O comando UPDATE
 
