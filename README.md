@@ -44,7 +44,7 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
 - O comando CREATE TABLE
     - Utilizado para criar uma nova tabela.
     - Sintaxe:
-        ```
+        ```SQL
         CREATE TABLE nome_da_tabela (
             coluna_1 tipo_do_dado,
             coluna_2 tipo_do_dado,
@@ -57,7 +57,7 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
     - Permite buscar dados diretamente do banco de dados. __QUASE TODAS__ query se inicia com SELECT, por isso é um dos comandos mais utilizados.
     - Permite selecionar uma ou mais colunas
     - Sintaxe: 
-        ```
+        ```SQL
         SELECT coluna_1, coluna_2, coluna_n
         FROM nome_da_tabela;
         ```
@@ -71,7 +71,7 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
         - Outros:
             - BETWEEN, LIKE, IN
     - Sintaxe:
-        ```
+        ```SQL
         SELECT coluna_1
         FROM nome_da_tabela
         WHERE coluna_1 operador valor;
