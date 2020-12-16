@@ -82,15 +82,23 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
         - Inserir em uma ordem específica (você especifica as colunas):
             ```SQL
             INSERT INTO nome_da_tabela (coluna_1, coluna_2, coluna_n)
-            VALUES (valor_1, valor_2, valor_n)
+            VALUES (valor_1, valor_2, valor_n);
             ```
         - Inserir seguindo a ordem padrão das colunas (certifique-se que os valores __ESTÃO NA MESMA ORDEM__ das colunas):
             ```SQL
             INSERT INTO nome_da_tabela 
-            VALUES (valor_1, valor_2, valor_n)
+            VALUES (valor_1, valor_2, valor_n);
             ```
-            
+
 - O comando UPDATE
+    - Usado para editar/atualizar linhas específicas na tabela.
+    - Importante: A clásula WHERE espeficia uma condição para atualização. Uma vez esquecida, todos os dados da tabela serão atualizados.
+    - Sintaxe:
+        ```SQL
+        UPDATE table_name
+        SET coluna_1 = valor_1, coluna_2 = valor_2, coluna_n = valor_n 
+        WHERE condição; 
+        ```
 
 - O comando DELETE
 
