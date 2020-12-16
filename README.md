@@ -76,7 +76,20 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
         FROM nome_da_tabela
         WHERE coluna_1 operador valor;
         ```
-
+- O comando INSERT
+    - Serve para adicionar uma nova linha no banco de dados. Vem acompanhado com o comando __INTO__
+    - Você pode usar o comando de duas formas: 
+        - Inserir em uma ordem específica (você especifica as colunas):
+            ```SQL
+            INSERT INTO nome_da_tabela (coluna_1, coluna_2, coluna_n)
+            VALUES (valor_1, valor_2, valor_n)
+            ```
+        - Inserir seguindo a ordem padrão das colunas (certifique-se que os valores __ESTÃO NA MESMA ORDEM__ das colunas):
+            ```SQL
+            INSERT INTO nome_da_tabela 
+            VALUES (valor_1, valor_2, valor_n)
+            ```
+            
 - O comando UPDATE
 
 - O comando DELETE
