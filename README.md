@@ -103,10 +103,18 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
 - O comando DELETE
     - Usado para deletar linas específicas na tabela.
     - Use sempre junto com a clásula __WHERE__, pois sem ela o comando __DELETE__ pode apagar o banco de dados inteiro.
-    - Sintaxr:
+    - Sintaxe:
     ```SQL
         DELETE FROM nome_da_tabela 
         WHERE condicao;
     ```
 - O comando GROUPBY
+    - Usado para agrupar linhas que tem os mesmos valores em linhas de resumo.
+    - Para realizar o agrupamento, o __GROUP BY__ depende de uma _função de agregação_: COUNT, MAX, MIN, SUM, AVG.
+    - Sintaxe:
+    ```SQL
+        SELECT funcao_agregacao(coluna_x) coluna_n 
+        FROM nome_da_tabela
+        GROUP BY coluna_n
+    ```
 
