@@ -101,6 +101,12 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
         ```
 
 - O comando DELETE
-
+    - Usado para deletar linas específicas na tabela.
+    - Use sempre junto com a clásula __WHERE__, pois sem ela o comando __DELETE__ pode apagar o banco de dados inteiro.
+    - Sintaxr:
+    ```SQL
+        DELETE FROM nome_da_tabela 
+        WHERE condicao;
+    ```
 - O comando GROUPBY
 
