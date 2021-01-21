@@ -118,3 +118,13 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
             GROUP BY coluna_n
         ```
 
+### Chave estrangeira
+
+- Chave estrangeira, também conhecido como ___foreign key___, é uma chave que tem como função ligar duas tabelas, quando o conteudo é complementar.
+- Por exemplo, vamos supor que temos a seguinte tabela de usuários:
+
+ID_usuário | Nome | Idade
+ --  | -- | --
+1 | João | 45
+2 | Maria | 52
+3 | Carlos | 27
