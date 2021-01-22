@@ -121,10 +121,29 @@ Um conjunto de dados suportados pelo SQL Server pode ser encontrado [aqui](https
 ### Chave estrangeira
 
 - Chave estrangeira, também conhecido como ___foreign key___, é uma chave que tem como função ligar duas tabelas, quando o conteudo é complementar.
-- Por exemplo, vamos supor que temos a seguinte tabela de usuários:
+- Por exemplo, vamos supor que temos a seguinte tabela de clientes de uma loja:
 
-ID_usuário | Nome | Idade
- --  | -- | --
-1 | João | 45
-2 | Maria | 52
-3 | Carlos | 27
+    ID_usuário | Nome | Idade
+    --  | -- | --
+    1 | João | 45
+    2 | Maria | 52
+    3 | Carlos | 27
+
+- E temos o seguinte problema: Precisamos criar uma tabela que associe __um ou mais__ ordem de serviços.
+- Podemos, então, criar uma tabela que apresente a descrição de uma ordem de serviço:
+
+    ID_servico | Descricao | Aparelho
+    --  | -- | --
+    1 | Máquina não funciona | Notebook Acer
+    2 | Fonte queimada | PC Gamer
+    3 | Troca de memória | Desktop 
+    4 | Reparo preventivo | Notebook Sansung
+
+- Como podemos associar as duas tabelas, sendo que cada __serviço__ deve ser associado a um __usuário__? Vamos criar uma nova chave estrangeira com o nome __ID_usuário__:
+
+    ID_servico | Descricao | Aparelho | ID_Usuario
+    --  | -- | -- | --
+    1 | Máquina não funciona | Notebook Acer | 1
+    2 | Fonte queimada | PC Gamer | 1
+    3 | Troca de memória | Desktop | 3
+    4 | Reparo preventivo | Notebook Sansung | 2
